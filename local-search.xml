@@ -4,11 +4,24 @@
   
   
   <entry>
+    <title></title>
+    <link href="/2022/11/27/My-Gallery/%E5%8F%8D%E5%B0%84/"/>
+    <url>/2022/11/27/My-Gallery/%E5%8F%8D%E5%B0%84/</url>
+    
+    <content type="html"><![CDATA[<p>Java运行的三个阶段<br /><img src="https://cdn.nlark.com/yuque/0/2022/png/34293240/1669265868967-6203b9a0-c1de-4017-846d-763f8ebd2fa5.png#averageHue=%23f5f8f5&clientId=u0460484f-23db-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=634&id=u52607a1c&margin=%5Bobject%20Object%5D&name=image.png&originHeight=634&originWidth=1600&originalType=binary&ratio=1&rotation=0&showTitle=false&size=261159&status=done&style=none&taskId=u794ab571-dedc-4a7e-8b60-93127b54f75&title=&width=1600" alt="image.png">反射：将类的各个组成部分封装成其他对象<br />好处：</p><ol><li>可以在程序运行过程中，操作对象</li><li>可以解耦，提高程序的可扩展性</li></ol><p>Class对象功能：<br />获取功能：<br />1、获取成员变量<br />Field[] getFields():获取所有public 修饰的成员变量<br />Field getField(String name)  获取指定名称的public修饰的成员变量</p><p>Field[] getDeclaredFields()  获取所有的成员变量<br />Field getDeclaredField(String name) 获取指定名称的成员变量，访问私有方法使用                                                setAccessible(true)暴力反射实现。<br />2、获取构造方法<br />Constructor<?>[] getConstructors()  <br />Constructor<T> getConstructor(类<?>…parameterTypes)</p><p>Constructor<T> getDeclaredConstructor(类<?>...parameterTypes)<br />Constructor<?>[] getDeclaredConstructors()</p><p>3、获取成员方法们<br />Method[] getMethods()<br />Method getMethod(String name ,类&lt;?&gt;…parameterTypes)</p><p>Method[] getDeclaredMethods()<br />Method getDeclaredMethod(String name,类&lt;?&gt;…parameterTypes)</p><p>4、获取类名<br />String getName()</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>My Gallery</title>
     <link href="/2022/11/27/My-Gallery/"/>
     <url>/2022/11/27/My-Gallery/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><ol><li>有序列表</li><li>有序列表</li></ol><ul><li>无序列表</li><li>无序列表</li></ul><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">public</span> jifejfidsa ds<br></code></pre></td></tr></table></figure>]]></content>
     
     
     
